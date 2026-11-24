@@ -1,0 +1,10 @@
+.DS_Store
+Mac/
+tools-downloads/
+DesignPreview/
+materials/
+analysis/
+*.apk
+**/.build/
+**/__pycache__/
+**/build-cache/

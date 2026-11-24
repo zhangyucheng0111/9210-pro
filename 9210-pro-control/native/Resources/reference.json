@@ -1,0 +1,9 @@
+{
+  "apk_version": "1.0.0.32",
+  "export_source": "tablet-20261115T053059948847Z/export-01",
+  "library_count": 11,
+  "step_count": 169,
+  "ble_service": "0000ffe0-0000-1000-8000-00805f9b34fb",
+  "ble_write": "0000ffe1-0000-1000-8000-00805f9b34fb",
+  "ble_notify": "0000ffe2-0000-1000-8000-00805f9b34fb"
+}

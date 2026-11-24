@@ -1,0 +1,2594 @@
+[
+  {
+    "class": "AxisLimitBean",
+    "source": "decompiled/sources/com/example/pipetter_workstation/utils/cmdUtils/functionBean/AxisLimitBean.java",
+    "extends_CommandBaseBean": true,
+    "fields": [
+      {
+        "name": "cmd",
+        "java_type": "byte[]",
+        "order": 0,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "{1, 9}",
+        "source_line": 12,
+        "literal_bytes": [
+          1,
+          9
+        ]
+      },
+      {
+        "name": "xPos",
+        "java_type": "int",
+        "order": 1,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 18
+      },
+      {
+        "name": "yPos",
+        "java_type": "int",
+        "order": 2,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 21
+      },
+      {
+        "name": "zPos",
+        "java_type": "int",
+        "order": 3,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 24
+      },
+      {
+        "name": "imbibingPos",
+        "java_type": "int",
+        "order": 5,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 15
+      }
+    ],
+    "duplicate_orders": [],
+    "instantiation_sites": [
+      {
+        "file": "decompiled/sources/com/example/pipetter_workstation/utils/CommandDetails.java",
+        "line": 1083
+      }
+    ],
+    "note": "Static evidence only; not hardware validated.",
+    "command_hex": "01 09"
+  },
+  {
+    "class": "Bean",
+    "source": "decompiled/sources/com/example/pipetter_workstation/utils/cmdUtils/functionBean/Bean.java",
+    "extends_CommandBaseBean": true,
+    "fields": [
+      {
+        "name": "cmd",
+        "java_type": "byte[]",
+        "order": 0,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "{0, 1}",
+        "source_line": 18,
+        "literal_bytes": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "imbibingDose",
+        "java_type": "int",
+        "order": 1,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 12
+      },
+      {
+        "name": "imbibingSpeed",
+        "java_type": "int",
+        "order": 2,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 15
+      },
+      {
+        "name": "imbibingSpeed1",
+        "java_type": "int",
+        "order": 3,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "12",
+        "source_line": 21
+      }
+    ],
+    "duplicate_orders": [],
+    "instantiation_sites": [],
+    "note": "Static evidence only; not hardware validated.",
+    "command_hex": "00 01"
+  },
+  {
+    "class": "ClawBean",
+    "source": "decompiled/sources/com/example/pipetter_workstation/utils/cmdUtils/functionBean/ClawBean.java",
+    "extends_CommandBaseBean": true,
+    "fields": [
+      {
+        "name": "cmd",
+        "java_type": "byte[]",
+        "order": 0,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "{0, 6}",
+        "source_line": 13,
+        "literal_bytes": [
+          0,
+          6
+        ]
+      },
+      {
+        "name": "axisType",
+        "java_type": "int",
+        "order": 1,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "1",
+        "source_line": 16
+      },
+      {
+        "name": "xPos",
+        "java_type": "String",
+        "order": 2,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "\"\"",
+        "source_line": 19
+      },
+      {
+        "name": "xSpeed",
+        "java_type": "String",
+        "order": 3,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "\"\"",
+        "source_line": 22
+      },
+      {
+        "name": "yPos",
+        "java_type": "String",
+        "order": 4,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "\"\"",
+        "source_line": 25
+      },
+      {
+        "name": "ySpeed",
+        "java_type": "String",
+        "order": 5,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "\"\"",
+        "source_line": 28
+      },
+      {
+        "name": "zDownPos",
+        "java_type": "String",
+        "order": 6,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "\"\"",
+        "source_line": 31
+      },
+      {
+        "name": "zDownSpeed",
+        "java_type": "String",
+        "order": 7,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "\"\"",
+        "source_line": 34
+      },
+      {
+        "name": "zSplintBoardPos",
+        "java_type": "String",
+        "order": 8,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "\"\"",
+        "source_line": 37
+      },
+      {
+        "name": "zSplintBoardSpeed",
+        "java_type": "String",
+        "order": 9,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "\"\"",
+        "source_line": 40
+      },
+      {
+        "name": "clawPos",
+        "java_type": "String",
+        "order": 10,
+        "type": 1,
+        "isTrue": true,
+        "initializer": "\"\"",
+        "source_line": 43
+      },
+      {
+        "name": "zUpPos",
+        "java_type": "String",
+        "order": 11,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "\"\"",
+        "source_line": 46
+      },
+      {
+        "name": "zUpSpeed",
+        "java_type": "String",
+        "order": 12,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "\"\"",
+        "source_line": 49
+      }
+    ],
+    "duplicate_orders": [],
+    "instantiation_sites": [],
+    "note": "Static evidence only; not hardware validated.",
+    "command_hex": "00 06"
+  },
+  {
+    "class": "CommonReceiveBean",
+    "source": "decompiled/sources/com/example/pipetter_workstation/utils/cmdUtils/functionBean/CommonReceiveBean.java",
+    "extends_CommandBaseBean": true,
+    "fields": [
+      {
+        "name": "cmdHead",
+        "java_type": "String",
+        "order": 0,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "\"\"",
+        "source_line": 12
+      },
+      {
+        "name": "dataLength",
+        "java_type": "String",
+        "order": 1,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "\"\"",
+        "source_line": 15
+      },
+      {
+        "name": "dvcIdentifying",
+        "java_type": "String",
+        "order": 2,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "\"\"",
+        "source_line": 18
+      },
+      {
+        "name": "dvcNumber",
+        "java_type": "String",
+        "order": 3,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "\"\"",
+        "source_line": 21
+      },
+      {
+        "name": "moduleAddress",
+        "java_type": "String",
+        "order": 4,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "\"\"",
+        "source_line": 24
+      },
+      {
+        "name": "stepNumber",
+        "java_type": "String",
+        "order": 5,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "\"\"",
+        "source_line": 27
+      },
+      {
+        "name": "responseCode",
+        "java_type": "String",
+        "order": 6,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "\"\"",
+        "source_line": 30
+      },
+      {
+        "name": "nowStepNumber",
+        "java_type": "String",
+        "order": 7,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "\"\"",
+        "source_line": 33
+      },
+      {
+        "name": "nowCmd",
+        "java_type": "String",
+        "order": 8,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "\"\"",
+        "source_line": 36
+      },
+      {
+        "name": "completeType",
+        "java_type": "String",
+        "order": 9,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "\"\"",
+        "source_line": 39
+      },
+      {
+        "name": "errorCode",
+        "java_type": "String",
+        "order": 10,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "\"\"",
+        "source_line": 42
+      },
+      {
+        "name": "verificationCode",
+        "java_type": "String",
+        "order": 11,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "\"\"",
+        "source_line": 45
+      },
+      {
+        "name": "cmdTail",
+        "java_type": "String",
+        "order": 12,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "\"\"",
+        "source_line": 48
+      }
+    ],
+    "duplicate_orders": [],
+    "instantiation_sites": [],
+    "note": "Static evidence only; not hardware validated."
+  },
+  {
+    "class": "CommonResetBean",
+    "source": "decompiled/sources/com/example/pipetter_workstation/utils/cmdUtils/functionBean/CommonResetBean.java",
+    "extends_CommandBaseBean": true,
+    "fields": [
+      {
+        "name": "cmd",
+        "java_type": "byte",
+        "order": 0,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "1",
+        "source_line": 12
+      },
+      {
+        "name": "type",
+        "java_type": "byte",
+        "order": 1,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 15
+      }
+    ],
+    "duplicate_orders": [],
+    "instantiation_sites": [],
+    "note": "Static evidence only; not hardware validated."
+  },
+  {
+    "class": "DvcInfoBean",
+    "source": "decompiled/sources/com/example/pipetter_workstation/utils/cmdUtils/functionBean/DvcInfoBean.java",
+    "extends_CommandBaseBean": true,
+    "fields": [
+      {
+        "name": "cmd",
+        "java_type": "byte[]",
+        "order": 0,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "{1, 6}",
+        "source_line": 13,
+        "literal_bytes": [
+          1,
+          6
+        ]
+      },
+      {
+        "name": "dvcIdentifying",
+        "java_type": "String",
+        "order": 1,
+        "type": 3,
+        "isTrue": true,
+        "initializer": "\"\"",
+        "source_line": 16
+      },
+      {
+        "name": "dvcNumber",
+        "java_type": "String",
+        "order": 1,
+        "type": 3,
+        "isTrue": true,
+        "initializer": "\"\"",
+        "source_line": 19
+      }
+    ],
+    "duplicate_orders": [
+      1
+    ],
+    "instantiation_sites": [
+      {
+        "file": "decompiled/sources/com/example/pipetter_workstation/utils/CommandDetails.java",
+        "line": 257
+      }
+    ],
+    "note": "Static evidence only; field order ties need DEX/runtime or captured-byte validation.",
+    "command_hex": "01 06"
+  },
+  {
+    "class": "EnableBean",
+    "source": "decompiled/sources/com/example/pipetter_workstation/utils/cmdUtils/functionBean/EnableBean.java",
+    "extends_CommandBaseBean": true,
+    "fields": [],
+    "duplicate_orders": [],
+    "instantiation_sites": [],
+    "note": "Static evidence only; not hardware validated."
+  },
+  {
+    "class": "FirmwareUpgradeBean",
+    "source": "decompiled/sources/com/example/pipetter_workstation/utils/cmdUtils/functionBean/FirmwareUpgradeBean.java",
+    "extends_CommandBaseBean": true,
+    "fields": [
+      {
+        "name": "cmd",
+        "java_type": "byte[]",
+        "order": 0,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "{1, 13}",
+        "source_line": 12,
+        "literal_bytes": [
+          1,
+          13
+        ]
+      }
+    ],
+    "duplicate_orders": [],
+    "instantiation_sites": [
+      {
+        "file": "decompiled/sources/com/example/pipetter_workstation/utils/CommandDetails.java",
+        "line": 205
+      }
+    ],
+    "note": "Static evidence only; not hardware validated.",
+    "command_hex": "01 0D"
+  },
+  {
+    "class": "FullyStirBean",
+    "source": "decompiled/sources/com/example/pipetter_workstation/utils/cmdUtils/functionBean/FullyStirBean.java",
+    "extends_CommandBaseBean": true,
+    "fields": [
+      {
+        "name": "cmd",
+        "java_type": "byte[]",
+        "order": 0,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "{0, Ascii.DLE}",
+        "source_line": 26,
+        "literal_bytes": [
+          0,
+          16
+        ]
+      },
+      {
+        "name": "xPos",
+        "java_type": "int",
+        "order": 1,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 17
+      },
+      {
+        "name": "yPos",
+        "java_type": "int",
+        "order": 2,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 20
+      },
+      {
+        "name": "zPos",
+        "java_type": "int",
+        "order": 3,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 23
+      },
+      {
+        "name": "turnsOfNumber",
+        "java_type": "int",
+        "order": 4,
+        "type": 0,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 14
+      },
+      {
+        "name": "xAccelerationSpeed",
+        "java_type": "int",
+        "order": 5,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 29
+      },
+      {
+        "name": "xSpeed",
+        "java_type": "int",
+        "order": 6,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 32
+      },
+      {
+        "name": "yAccelerationSpeed",
+        "java_type": "int",
+        "order": 7,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "20",
+        "source_line": 35
+      },
+      {
+        "name": "ySpeed",
+        "java_type": "int",
+        "order": 8,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "60",
+        "source_line": 38
+      },
+      {
+        "name": "zAccelerationSpeed",
+        "java_type": "int",
+        "order": 9,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "20",
+        "source_line": 41
+      },
+      {
+        "name": "zSpeed",
+        "java_type": "int",
+        "order": 10,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "60",
+        "source_line": 44
+      },
+      {
+        "name": "xTurnAccelerationSpeed",
+        "java_type": "int",
+        "order": 11,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "20",
+        "source_line": 47
+      },
+      {
+        "name": "xTurnSpeed",
+        "java_type": "int",
+        "order": 12,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "60",
+        "source_line": 50
+      },
+      {
+        "name": "yTurnAccelerationSpeed",
+        "java_type": "int",
+        "order": 13,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "20",
+        "source_line": 53
+      },
+      {
+        "name": "yTurnSpeed",
+        "java_type": "int",
+        "order": 14,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "60",
+        "source_line": 56
+      },
+      {
+        "name": "posList",
+        "java_type": "byte[]",
+        "order": 15,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "new byte[0]",
+        "source_line": 59
+      }
+    ],
+    "duplicate_orders": [],
+    "instantiation_sites": [],
+    "note": "Static evidence only; not hardware validated.",
+    "command_hex": "00 10"
+  },
+  {
+    "class": "ImbibingBean",
+    "source": "decompiled/sources/com/example/pipetter_workstation/utils/cmdUtils/functionBean/ImbibingBean.java",
+    "extends_CommandBaseBean": true,
+    "fields": [
+      {
+        "name": "cmd",
+        "java_type": "byte[]",
+        "order": 0,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "{0, 3}",
+        "source_line": 54,
+        "literal_bytes": [
+          0,
+          3
+        ]
+      },
+      {
+        "name": "axisType",
+        "java_type": "int",
+        "order": 1,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "1",
+        "source_line": 57
+      },
+      {
+        "name": "xPos",
+        "java_type": "int",
+        "order": 2,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 39
+      },
+      {
+        "name": "xAccelerationSpeed",
+        "java_type": "int",
+        "order": 3,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 60
+      },
+      {
+        "name": "xSpeed",
+        "java_type": "int",
+        "order": 4,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 63
+      },
+      {
+        "name": "yPos",
+        "java_type": "int",
+        "order": 5,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 42
+      },
+      {
+        "name": "yAccelerationSpeed",
+        "java_type": "int",
+        "order": 6,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 66
+      },
+      {
+        "name": "ySpeed",
+        "java_type": "int",
+        "order": 7,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 69
+      },
+      {
+        "name": "zImbibingPos",
+        "java_type": "int",
+        "order": 8,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 51
+      },
+      {
+        "name": "zBottomPos",
+        "java_type": "int",
+        "order": 9,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 48
+      },
+      {
+        "name": "zBottomOffsetHeight",
+        "java_type": "int",
+        "order": 10,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 45
+      },
+      {
+        "name": "zAccelerationDownSpeed",
+        "java_type": "int",
+        "order": 11,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 72
+      },
+      {
+        "name": "zDownSpeed",
+        "java_type": "int",
+        "order": 12,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 75
+      },
+      {
+        "name": "frontAirPos",
+        "java_type": "int",
+        "order": 13,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 21
+      },
+      {
+        "name": "frontAirDosage",
+        "java_type": "int",
+        "order": 14,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 18
+      },
+      {
+        "name": "imbibingType",
+        "java_type": "int",
+        "order": 15,
+        "type": 0,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 33
+      },
+      {
+        "name": "imbibingDosage",
+        "java_type": "int",
+        "order": 16,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 24
+      },
+      {
+        "name": "imbibingAccelerationSpeed",
+        "java_type": "int",
+        "order": 17,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 78
+      },
+      {
+        "name": "imbibingSpeed",
+        "java_type": "int",
+        "order": 18,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 81
+      },
+      {
+        "name": "imbibingHover",
+        "java_type": "int",
+        "order": 19,
+        "type": 1,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 30
+      },
+      {
+        "name": "imbibingEmptyPos",
+        "java_type": "int",
+        "order": 20,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 27
+      },
+      {
+        "name": "emptyPosAccSpeed",
+        "java_type": "int",
+        "order": 21,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 84
+      },
+      {
+        "name": "emptyPosSpeed",
+        "java_type": "int",
+        "order": 22,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 87
+      },
+      {
+        "name": "emptyPosHover",
+        "java_type": "int",
+        "order": 23,
+        "type": 1,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 15
+      },
+      {
+        "name": "rearEmptyDosage",
+        "java_type": "int",
+        "order": 24,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 36
+      },
+      {
+        "name": "completedImbibingPos",
+        "java_type": "int",
+        "order": 25,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 12
+      },
+      {
+        "name": "completedImbibingAccelerationSpeed",
+        "java_type": "int",
+        "order": 26,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "4",
+        "source_line": 90
+      },
+      {
+        "name": "completedImbibingSpeed",
+        "java_type": "int",
+        "order": 27,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "4",
+        "source_line": 93
+      }
+    ],
+    "duplicate_orders": [],
+    "instantiation_sites": [
+      {
+        "file": "decompiled/sources/com/example/pipetter_workstation/utils/CommandDetails.java",
+        "line": 610
+      }
+    ],
+    "note": "Static evidence only; not hardware validated.",
+    "command_hex": "00 03"
+  },
+  {
+    "class": "ImbibingZeroBean",
+    "source": "decompiled/sources/com/example/pipetter_workstation/utils/cmdUtils/functionBean/ImbibingZeroBean.java",
+    "extends_CommandBaseBean": true,
+    "fields": [
+      {
+        "name": "cmd",
+        "java_type": "byte[]",
+        "order": 0,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "{1, 11}",
+        "source_line": 12,
+        "literal_bytes": [
+          1,
+          11
+        ]
+      },
+      {
+        "name": "imbibing1Axis",
+        "java_type": "int",
+        "order": 1,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 15
+      },
+      {
+        "name": "imbibing2Axis",
+        "java_type": "int",
+        "order": 2,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 18
+      },
+      {
+        "name": "pitch",
+        "java_type": "int",
+        "order": 3,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 21
+      }
+    ],
+    "duplicate_orders": [],
+    "instantiation_sites": [
+      {
+        "file": "decompiled/sources/com/example/pipetter_workstation/utils/CommandDetails.java",
+        "line": 1074
+      }
+    ],
+    "note": "Static evidence only; not hardware validated.",
+    "command_hex": "01 0B"
+  },
+  {
+    "class": "JogBean",
+    "source": "decompiled/sources/com/example/pipetter_workstation/utils/cmdUtils/functionBean/JogBean.java",
+    "extends_CommandBaseBean": true,
+    "fields": [
+      {
+        "name": "cmd",
+        "java_type": "byte[]",
+        "order": 0,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "{1, 12}",
+        "source_line": 15,
+        "literal_bytes": [
+          1,
+          12
+        ]
+      },
+      {
+        "name": "moveType",
+        "java_type": "byte",
+        "order": 1,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "1",
+        "source_line": 18
+      },
+      {
+        "name": "moveStep",
+        "java_type": "int",
+        "order": 2,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 12
+      }
+    ],
+    "duplicate_orders": [],
+    "instantiation_sites": [
+      {
+        "file": "decompiled/sources/com/example/pipetter_workstation/utils/CommandDetails.java",
+        "line": 1178
+      }
+    ],
+    "note": "Static evidence only; not hardware validated.",
+    "command_hex": "01 0C"
+  },
+  {
+    "class": "LoadBean",
+    "source": "decompiled/sources/com/example/pipetter_workstation/utils/cmdUtils/functionBean/LoadBean.java",
+    "extends_CommandBaseBean": true,
+    "fields": [
+      {
+        "name": "cmd",
+        "java_type": "byte[]",
+        "order": 0,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "{0, 1}",
+        "source_line": 27,
+        "literal_bytes": [
+          0,
+          1
+        ]
+      },
+      {
+        "name": "axisType",
+        "java_type": "int",
+        "order": 1,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "1",
+        "source_line": 30
+      },
+      {
+        "name": "xPos",
+        "java_type": "int",
+        "order": 2,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 12
+      },
+      {
+        "name": "xAccelerationSpeed",
+        "java_type": "int",
+        "order": 3,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 33
+      },
+      {
+        "name": "xSpeed",
+        "java_type": "int",
+        "order": 4,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 36
+      },
+      {
+        "name": "yPos",
+        "java_type": "int",
+        "order": 5,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 15
+      },
+      {
+        "name": "yAccelerationSpeed",
+        "java_type": "int",
+        "order": 6,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 39
+      },
+      {
+        "name": "ySpeed",
+        "java_type": "int",
+        "order": 7,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 42
+      },
+      {
+        "name": "z1Pos",
+        "java_type": "int",
+        "order": 8,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 18
+      },
+      {
+        "name": "zAccelerationDownSpeed",
+        "java_type": "int",
+        "order": 9,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 45
+      },
+      {
+        "name": "zDownSpeed",
+        "java_type": "int",
+        "order": 10,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 48
+      },
+      {
+        "name": "z2Pos",
+        "java_type": "int",
+        "order": 11,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 21
+      },
+      {
+        "name": "zTakeGunAccelerationSpeed",
+        "java_type": "int",
+        "order": 12,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "10",
+        "source_line": 51
+      },
+      {
+        "name": "zTakeGunSpeed",
+        "java_type": "int",
+        "order": 13,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "20",
+        "source_line": 54
+      },
+      {
+        "name": "zUpPos",
+        "java_type": "int",
+        "order": 14,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 24
+      },
+      {
+        "name": "zUpAccelerationSpeed",
+        "java_type": "int",
+        "order": 16,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 57
+      },
+      {
+        "name": "zUpSpeed",
+        "java_type": "int",
+        "order": 16,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 60
+      }
+    ],
+    "duplicate_orders": [
+      16
+    ],
+    "instantiation_sites": [
+      {
+        "file": "decompiled/sources/com/example/pipetter_workstation/utils/CommandDetails.java",
+        "line": 564
+      }
+    ],
+    "note": "Static evidence only; field order ties need DEX/runtime or captured-byte validation.",
+    "command_hex": "00 01"
+  },
+  {
+    "class": "MetalBathBean",
+    "source": "decompiled/sources/com/example/pipetter_workstation/utils/cmdUtils/functionBean/MetalBathBean.java",
+    "extends_CommandBaseBean": true,
+    "fields": [
+      {
+        "name": "cmd",
+        "java_type": "byte[]",
+        "order": 0,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "{0, 9}",
+        "source_line": 24,
+        "literal_bytes": [
+          0,
+          9
+        ]
+      },
+      {
+        "name": "xPos",
+        "java_type": "int",
+        "order": 1,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 18
+      },
+      {
+        "name": "yPos",
+        "java_type": "int",
+        "order": 2,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 21
+      },
+      {
+        "name": "oscillationSwitch",
+        "java_type": "int",
+        "order": 3,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "1",
+        "source_line": 27
+      },
+      {
+        "name": "time",
+        "java_type": "int",
+        "order": 4,
+        "type": 1,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 15
+      },
+      {
+        "name": "frequency",
+        "java_type": "int",
+        "order": 5,
+        "type": 1,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 12
+      },
+      {
+        "name": "moduleNumber",
+        "java_type": "int",
+        "order": 6,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "1",
+        "source_line": 30
+      }
+    ],
+    "duplicate_orders": [],
+    "instantiation_sites": [
+      {
+        "file": "decompiled/sources/com/example/pipetter_workstation/utils/CommandDetails.java",
+        "line": 410
+      }
+    ],
+    "note": "Static evidence only; not hardware validated.",
+    "command_hex": "00 09"
+  },
+  {
+    "class": "MixWellBean",
+    "source": "decompiled/sources/com/example/pipetter_workstation/utils/cmdUtils/functionBean/MixWellBean.java",
+    "extends_CommandBaseBean": true,
+    "fields": [
+      {
+        "name": "cmd",
+        "java_type": "byte[]",
+        "order": 0,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "{0, 5}",
+        "source_line": 58,
+        "literal_bytes": [
+          0,
+          5
+        ]
+      },
+      {
+        "name": "axisType",
+        "java_type": "int",
+        "order": 1,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "1",
+        "source_line": 61
+      },
+      {
+        "name": "xPos",
+        "java_type": "int",
+        "order": 2,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 46
+      },
+      {
+        "name": "xAccSpeed",
+        "java_type": "int",
+        "order": 3,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 64
+      },
+      {
+        "name": "xSpeed",
+        "java_type": "int",
+        "order": 4,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 67
+      },
+      {
+        "name": "yPos",
+        "java_type": "int",
+        "order": 5,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 49
+      },
+      {
+        "name": "yAccSpeed",
+        "java_type": "int",
+        "order": 6,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 70
+      },
+      {
+        "name": "ySpeed",
+        "java_type": "int",
+        "order": 7,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 73
+      },
+      {
+        "name": "zBottleMouthPos",
+        "java_type": "int",
+        "order": 8,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 55
+      },
+      {
+        "name": "zBottleBottomPos",
+        "java_type": "int",
+        "order": 9,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 52
+      },
+      {
+        "name": "mixWellStartOfOffsetHeight",
+        "java_type": "int",
+        "order": 10,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 37
+      },
+      {
+        "name": "zDownAccSpeed",
+        "java_type": "int",
+        "order": 11,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 76
+      },
+      {
+        "name": "zDownSpeed",
+        "java_type": "int",
+        "order": 12,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 79
+      },
+      {
+        "name": "frontAirPos",
+        "java_type": "int",
+        "order": 13,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 22
+      },
+      {
+        "name": "frontAirDosage",
+        "java_type": "int",
+        "order": 14,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 19
+      },
+      {
+        "name": "mixWellDosage",
+        "java_type": "int",
+        "order": 15,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 28
+      },
+      {
+        "name": "mixWellTimes",
+        "java_type": "int",
+        "order": 16,
+        "type": 0,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 40
+      },
+      {
+        "name": "imbibingAccSpeed",
+        "java_type": "int",
+        "order": 17,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 82
+      },
+      {
+        "name": "imbibingSpeed",
+        "java_type": "int",
+        "order": 18,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 85
+      },
+      {
+        "name": "trappingAccSpeed",
+        "java_type": "int",
+        "order": 19,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 88
+      },
+      {
+        "name": "trappingSpeed",
+        "java_type": "int",
+        "order": 20,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 91
+      },
+      {
+        "name": "blowSampleDosage",
+        "java_type": "int",
+        "order": 21,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 16
+      },
+      {
+        "name": "blowSampleAccSpeed",
+        "java_type": "int",
+        "order": 22,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "15",
+        "source_line": 94
+      },
+      {
+        "name": "blowSampleSpeed",
+        "java_type": "int",
+        "order": 23,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "60",
+        "source_line": 97
+      },
+      {
+        "name": "afterMixImbibingDosage",
+        "java_type": "int",
+        "order": 24,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 13
+      },
+      {
+        "name": "afterMixImbibingAccSpeed",
+        "java_type": "int",
+        "order": 25,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 100
+      },
+      {
+        "name": "afterMixImbibingSpeed",
+        "java_type": "int",
+        "order": 26,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 103
+      },
+      {
+        "name": "mixWellEmptyPos",
+        "java_type": "int",
+        "order": 27,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 31
+      },
+      {
+        "name": "rearAirSuctionDosage",
+        "java_type": "int",
+        "order": 27,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 43
+      },
+      {
+        "name": "mixWellEmptyAccSpeed",
+        "java_type": "int",
+        "order": 28,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 106
+      },
+      {
+        "name": "mixWellEmptySpeed",
+        "java_type": "int",
+        "order": 29,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 109
+      },
+      {
+        "name": "mixWellEmptyTime",
+        "java_type": "int",
+        "order": 30,
+        "type": 1,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 34
+      },
+      {
+        "name": "mixWellCompletedImbibingZPos",
+        "java_type": "int",
+        "order": 31,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 25
+      },
+      {
+        "name": "mixWellCompletedImbibingZAccSpeed",
+        "java_type": "int",
+        "order": 32,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 112
+      },
+      {
+        "name": "mixWellCompletedImbibingZSpeed",
+        "java_type": "int",
+        "order": 33,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 115
+      }
+    ],
+    "duplicate_orders": [
+      27
+    ],
+    "instantiation_sites": [
+      {
+        "file": "decompiled/sources/com/example/pipetter_workstation/utils/CommandDetails.java",
+        "line": 741
+      }
+    ],
+    "note": "Static evidence only; field order ties need DEX/runtime or captured-byte validation.",
+    "command_hex": "00 05"
+  },
+  {
+    "class": "MoveAxisBean",
+    "source": "decompiled/sources/com/example/pipetter_workstation/utils/cmdUtils/functionBean/MoveAxisBean.java",
+    "extends_CommandBaseBean": true,
+    "fields": [
+      {
+        "name": "cmd",
+        "java_type": "byte[]",
+        "order": 0,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "{1, 2}",
+        "source_line": 24,
+        "literal_bytes": [
+          1,
+          2
+        ]
+      },
+      {
+        "name": "axisType",
+        "java_type": "int",
+        "order": 1,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "1",
+        "source_line": 27
+      },
+      {
+        "name": "xPos",
+        "java_type": "int",
+        "order": 2,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 15
+      },
+      {
+        "name": "xAccSpeed",
+        "java_type": "int",
+        "order": 3,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 30
+      },
+      {
+        "name": "xSpeed",
+        "java_type": "int",
+        "order": 4,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 33
+      },
+      {
+        "name": "yPos",
+        "java_type": "int",
+        "order": 5,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 18
+      },
+      {
+        "name": "yAccSpeed",
+        "java_type": "int",
+        "order": 6,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 36
+      },
+      {
+        "name": "ySpeed",
+        "java_type": "int",
+        "order": 7,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 39
+      },
+      {
+        "name": "zPos",
+        "java_type": "int",
+        "order": 8,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 21
+      },
+      {
+        "name": "zAccSpeed",
+        "java_type": "int",
+        "order": 9,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 42
+      },
+      {
+        "name": "zSpeed",
+        "java_type": "int",
+        "order": 10,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 45
+      },
+      {
+        "name": "moveType",
+        "java_type": "int",
+        "order": 11,
+        "type": 0,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 12
+      }
+    ],
+    "duplicate_orders": [],
+    "instantiation_sites": [
+      {
+        "file": "decompiled/sources/com/example/pipetter_workstation/utils/CommandDetails.java",
+        "line": 241
+      }
+    ],
+    "note": "Static evidence only; not hardware validated.",
+    "command_hex": "01 02"
+  },
+  {
+    "class": "OscillationBean",
+    "source": "decompiled/sources/com/example/pipetter_workstation/utils/cmdUtils/functionBean/OscillationBean.java",
+    "extends_CommandBaseBean": true,
+    "fields": [
+      {
+        "name": "cmd",
+        "java_type": "byte[]",
+        "order": 0,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "{0, 9}",
+        "source_line": 27,
+        "literal_bytes": [
+          0,
+          9
+        ]
+      },
+      {
+        "name": "xPos",
+        "java_type": "int",
+        "order": 1,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 21
+      },
+      {
+        "name": "yPos",
+        "java_type": "int",
+        "order": 2,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 24
+      },
+      {
+        "name": "switch",
+        "java_type": "int",
+        "order": 3,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "1",
+        "source_line": 30
+      },
+      {
+        "name": "time",
+        "java_type": "int",
+        "order": 4,
+        "type": 1,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 18
+      },
+      {
+        "name": "accSpeed",
+        "java_type": "int",
+        "order": 5,
+        "type": 1,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 12
+      },
+      {
+        "name": "speed",
+        "java_type": "int",
+        "order": 6,
+        "type": 0,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 15
+      }
+    ],
+    "duplicate_orders": [],
+    "instantiation_sites": [],
+    "note": "Static evidence only; not hardware validated.",
+    "command_hex": "00 09"
+  },
+  {
+    "class": "ResetBean",
+    "source": "decompiled/sources/com/example/pipetter_workstation/utils/cmdUtils/functionBean/ResetBean.java",
+    "extends_CommandBaseBean": true,
+    "fields": [
+      {
+        "name": "cmd",
+        "java_type": "byte",
+        "order": 0,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "1",
+        "source_line": 15
+      },
+      {
+        "name": "type",
+        "java_type": "byte",
+        "order": 1,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 21
+      },
+      {
+        "name": "eventType",
+        "java_type": "int",
+        "order": 2,
+        "type": 0,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 18
+      },
+      {
+        "name": "xPos",
+        "java_type": "int",
+        "order": 3,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 24
+      },
+      {
+        "name": "yPos",
+        "java_type": "int",
+        "order": 4,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 30
+      },
+      {
+        "name": "zPos",
+        "java_type": "int",
+        "order": 5,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 36
+      },
+      {
+        "name": "xTrapPos",
+        "java_type": "int",
+        "order": 6,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 27
+      },
+      {
+        "name": "yTrapPos",
+        "java_type": "int",
+        "order": 7,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 33
+      },
+      {
+        "name": "zTrapPos",
+        "java_type": "int",
+        "order": 8,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 39
+      },
+      {
+        "name": "blowDose",
+        "java_type": "int",
+        "order": 9,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 12
+      }
+    ],
+    "duplicate_orders": [],
+    "instantiation_sites": [
+      {
+        "file": "decompiled/sources/com/example/pipetter_workstation/utils/CommandDetails.java",
+        "line": 1098
+      }
+    ],
+    "note": "Static evidence only; not hardware validated."
+  },
+  {
+    "class": "SendGetDvcInfoBean",
+    "source": "decompiled/sources/com/example/pipetter_workstation/utils/cmdUtils/functionBean/SendGetDvcInfoBean.java",
+    "extends_CommandBaseBean": true,
+    "fields": [
+      {
+        "name": "cmd",
+        "java_type": "byte[]",
+        "order": 0,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "{1, 5}",
+        "source_line": 12,
+        "literal_bytes": [
+          1,
+          5
+        ]
+      }
+    ],
+    "duplicate_orders": [],
+    "instantiation_sites": [
+      {
+        "file": "decompiled/sources/com/example/pipetter_workstation/utils/CommandDetails.java",
+        "line": 209
+      }
+    ],
+    "note": "Static evidence only; not hardware validated.",
+    "command_hex": "01 05"
+  },
+  {
+    "class": "SendGetPosBean",
+    "source": "decompiled/sources/com/example/pipetter_workstation/utils/cmdUtils/functionBean/SendGetPosBean.java",
+    "extends_CommandBaseBean": true,
+    "fields": [
+      {
+        "name": "cmd",
+        "java_type": "byte[]",
+        "order": 0,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "{1, 3}",
+        "source_line": 12,
+        "literal_bytes": [
+          1,
+          3
+        ]
+      },
+      {
+        "name": "axisType",
+        "java_type": "int",
+        "order": 1,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "1",
+        "source_line": 15
+      }
+    ],
+    "duplicate_orders": [],
+    "instantiation_sites": [
+      {
+        "file": "decompiled/sources/com/example/pipetter_workstation/utils/CommandDetails.java",
+        "line": 1093
+      }
+    ],
+    "note": "Static evidence only; not hardware validated.",
+    "command_hex": "01 03"
+  },
+  {
+    "class": "StatusPollingResultBean",
+    "source": "decompiled/sources/com/example/pipetter_workstation/utils/cmdUtils/functionBean/StatusPollingResultBean.java",
+    "extends_CommandBaseBean": false,
+    "fields": [
+      {
+        "name": "head",
+        "java_type": "byte[]",
+        "order": 0,
+        "type": 1,
+        "isTrue": true,
+        "initializer": "{90, 88}",
+        "source_line": 12,
+        "literal_bytes": [
+          90,
+          88
+        ]
+      },
+      {
+        "name": "responseCode",
+        "java_type": "byte[]",
+        "order": 0,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "{0, 0}",
+        "source_line": 18,
+        "literal_bytes": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "dataSum",
+        "java_type": "byte[]",
+        "order": 1,
+        "type": 1,
+        "isTrue": true,
+        "initializer": "{0, 0}",
+        "source_line": 15,
+        "literal_bytes": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "cmdStepNumber",
+        "java_type": "byte[]",
+        "order": 1,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "{0, 0, 0, 0}",
+        "source_line": 21,
+        "literal_bytes": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "cmd",
+        "java_type": "byte[]",
+        "order": 2,
+        "type": 1,
+        "isTrue": true,
+        "initializer": "{0, 0}",
+        "source_line": 24,
+        "literal_bytes": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "completionStatus",
+        "java_type": "byte",
+        "order": 3,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "1",
+        "source_line": 27
+      },
+      {
+        "name": "errorCode",
+        "java_type": "byte",
+        "order": 4,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "1",
+        "source_line": 30
+      }
+    ],
+    "duplicate_orders": [
+      0,
+      1
+    ],
+    "instantiation_sites": [],
+    "note": "Static evidence only; field order ties need DEX/runtime or captured-byte validation.",
+    "command_hex": "00 00"
+  },
+  {
+    "class": "StopBean",
+    "source": "decompiled/sources/com/example/pipetter_workstation/utils/cmdUtils/functionBean/StopBean.java",
+    "extends_CommandBaseBean": true,
+    "fields": [
+      {
+        "name": "cmd",
+        "java_type": "byte",
+        "order": 0,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "1",
+        "source_line": 12
+      },
+      {
+        "name": "type",
+        "java_type": "byte",
+        "order": 1,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 15
+      }
+    ],
+    "duplicate_orders": [],
+    "instantiation_sites": [
+      {
+        "file": "decompiled/sources/com/example/pipetter_workstation/utils/CommandDetails.java",
+        "line": 1099
+      }
+    ],
+    "note": "Static evidence only; not hardware validated."
+  },
+  {
+    "class": "TrappingBean",
+    "source": "decompiled/sources/com/example/pipetter_workstation/utils/cmdUtils/functionBean/TrappingBean.java",
+    "extends_CommandBaseBean": true,
+    "fields": [
+      {
+        "name": "cmd",
+        "java_type": "byte[]",
+        "order": 0,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "{0, 4}",
+        "source_line": 58,
+        "literal_bytes": [
+          0,
+          4
+        ]
+      },
+      {
+        "name": "axisType",
+        "java_type": "int",
+        "order": 1,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "1",
+        "source_line": 61
+      },
+      {
+        "name": "xPos",
+        "java_type": "int",
+        "order": 2,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 40
+      },
+      {
+        "name": "xAccSpeed",
+        "java_type": "int",
+        "order": 3,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 64
+      },
+      {
+        "name": "xSpeed",
+        "java_type": "int",
+        "order": 4,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 67
+      },
+      {
+        "name": "yPos",
+        "java_type": "int",
+        "order": 5,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 43
+      },
+      {
+        "name": "yAccSpeed",
+        "java_type": "int",
+        "order": 6,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 70
+      },
+      {
+        "name": "ySpeed",
+        "java_type": "int",
+        "order": 7,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 73
+      },
+      {
+        "name": "zBottleMouthPos",
+        "java_type": "int",
+        "order": 8,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 52
+      },
+      {
+        "name": "zBottleBottomPos",
+        "java_type": "int",
+        "order": 9,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 49
+      },
+      {
+        "name": "trappingStartOfOffsetHeight",
+        "java_type": "int",
+        "order": 10,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 31
+      },
+      {
+        "name": "zAgainstPos",
+        "java_type": "int",
+        "order": 11,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 46
+      },
+      {
+        "name": "xAgainstPos",
+        "java_type": "int",
+        "order": 12,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 37
+      },
+      {
+        "name": "zDownAccSpeed",
+        "java_type": "int",
+        "order": 13,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 76
+      },
+      {
+        "name": "zDownSpeed",
+        "java_type": "int",
+        "order": 14,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 79
+      },
+      {
+        "name": "trappingType",
+        "java_type": "int",
+        "order": 15,
+        "type": 0,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 34
+      },
+      {
+        "name": "trappingDosage",
+        "java_type": "int",
+        "order": 16,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 19
+      },
+      {
+        "name": "trappingAccSpeed",
+        "java_type": "int",
+        "order": 17,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 82
+      },
+      {
+        "name": "trappingSpeed",
+        "java_type": "int",
+        "order": 18,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 85
+      },
+      {
+        "name": "trappingHoverTime",
+        "java_type": "int",
+        "order": 19,
+        "type": 1,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 28
+      },
+      {
+        "name": "blowSampleDosage",
+        "java_type": "int",
+        "order": 20,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 13
+      },
+      {
+        "name": "blowSampleAccSpeed",
+        "java_type": "int",
+        "order": 21,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "15",
+        "source_line": 88
+      },
+      {
+        "name": "blowSampleSpeed",
+        "java_type": "int",
+        "order": 22,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "60",
+        "source_line": 91
+      },
+      {
+        "name": "trappingEmptyPos",
+        "java_type": "int",
+        "order": 23,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 25
+      },
+      {
+        "name": "trappingEmptyAccSpeed",
+        "java_type": "int",
+        "order": 24,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "20",
+        "source_line": 94
+      },
+      {
+        "name": "trappingEmptySpeed",
+        "java_type": "int",
+        "order": 25,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "80",
+        "source_line": 97
+      },
+      {
+        "name": "trappingEmptyHoverTime",
+        "java_type": "int",
+        "order": 26,
+        "type": 1,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 22
+      },
+      {
+        "name": "rearSuctionDosage",
+        "java_type": "int",
+        "order": 27,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 16
+      },
+      {
+        "name": "zTrappingPos",
+        "java_type": "int",
+        "order": 28,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 55
+      },
+      {
+        "name": "zTrappingUpAccSpeed",
+        "java_type": "int",
+        "order": 29,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 100
+      },
+      {
+        "name": "zTrappingUpSpeed",
+        "java_type": "int",
+        "order": 30,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 103
+      }
+    ],
+    "duplicate_orders": [],
+    "instantiation_sites": [
+      {
+        "file": "decompiled/sources/com/example/pipetter_workstation/utils/CommandDetails.java",
+        "line": 677
+      }
+    ],
+    "note": "Static evidence only; not hardware validated.",
+    "command_hex": "00 04"
+  },
+  {
+    "class": "UnLoadBean",
+    "source": "decompiled/sources/com/example/pipetter_workstation/utils/cmdUtils/functionBean/UnLoadBean.java",
+    "extends_CommandBaseBean": true,
+    "fields": [
+      {
+        "name": "cmd",
+        "java_type": "byte[]",
+        "order": 0,
+        "type": 2,
+        "isTrue": true,
+        "initializer": "{0, 2}",
+        "source_line": 24,
+        "literal_bytes": [
+          0,
+          2
+        ]
+      },
+      {
+        "name": "axisType",
+        "java_type": "int",
+        "order": 1,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "1",
+        "source_line": 27
+      },
+      {
+        "name": "xPos",
+        "java_type": "int",
+        "order": 2,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 12
+      },
+      {
+        "name": "xAccelerationSpeed",
+        "java_type": "int",
+        "order": 3,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 30
+      },
+      {
+        "name": "xSpeed",
+        "java_type": "int",
+        "order": 4,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 33
+      },
+      {
+        "name": "yPos",
+        "java_type": "int",
+        "order": 5,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 15
+      },
+      {
+        "name": "yAccelerationSpeed",
+        "java_type": "int",
+        "order": 6,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 36
+      },
+      {
+        "name": "ySpeed",
+        "java_type": "int",
+        "order": 7,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 39
+      },
+      {
+        "name": "z1Pos",
+        "java_type": "int",
+        "order": 8,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 18
+      },
+      {
+        "name": "zDownAccelerationSpeed",
+        "java_type": "int",
+        "order": 9,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 42
+      },
+      {
+        "name": "zDownSpeed",
+        "java_type": "int",
+        "order": 10,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "5",
+        "source_line": 45
+      },
+      {
+        "name": "zUpPos",
+        "java_type": "int",
+        "order": 11,
+        "type": 2,
+        "isTrue": true,
+        "initializer": null,
+        "source_line": 21
+      },
+      {
+        "name": "zUpAccelerationSpeed",
+        "java_type": "int",
+        "order": 12,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "3",
+        "source_line": 48
+      },
+      {
+        "name": "zUpSpeed",
+        "java_type": "int",
+        "order": 13,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "3",
+        "source_line": 51
+      },
+      {
+        "name": "zUnLoadAccelerationSpeed",
+        "java_type": "int",
+        "order": 14,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "3",
+        "source_line": 54
+      },
+      {
+        "name": "zUnLoadSpeed",
+        "java_type": "int",
+        "order": 15,
+        "type": 0,
+        "isTrue": true,
+        "initializer": "3",
+        "source_line": 57
+      }
+    ],
+    "duplicate_orders": [],
+    "instantiation_sites": [
+      {
+        "file": "decompiled/sources/com/example/pipetter_workstation/utils/CommandDetails.java",
+        "line": 587
+      }
+    ],
+    "note": "Static evidence only; not hardware validated.",
+    "command_hex": "00 02"
+  }
+]
